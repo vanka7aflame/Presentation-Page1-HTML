@@ -82,7 +82,6 @@
   display: flex;
   max-width: var(--dl-size-size-maxcontent);
   align-items: center;
-  padding-top: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-tripleunit);
   padding-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
@@ -220,7 +219,6 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding-top: 30px;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -769,6 +767,7 @@
     justify-content: center;
   }
   .bg-heading {
+    height: 59px;
     text-align: center;
   }
   .bg-text {
@@ -780,8 +779,10 @@
     height: 586px;
     align-self: center;
     align-items: center;
+    padding-top: 0px;
     padding-left: 0px;
     padding-right: 0px;
+    padding-bottom: 0px;
   }
   .bg-heading-container {
     width: 889px;
@@ -930,22 +931,24 @@
     height: 240px;
   }
   .bg-features {
-    height: 729px;
+    height: 765px;
     padding-bottom: 0px;
   }
   .bg-heading-container {
-    width: 100%;
+    width: 685px;
+    height: 764px;
   }
   .bg-text21 {
-    height: 57px;
+    height: 60px;
     align-self: center;
     margin-top: 0px;
     text-align: center;
     padding-bottom: 0px;
   }
   .bg-services {
-    height: 8162px;
+    height: 7881px;
     position: relative;
+    padding-top: 56px;
     margin-bottom: 1px;
     padding-bottom: 0px;
   }
@@ -1125,12 +1128,13 @@
   }
   .bg-features {
     width: 346px;
-    height: 1101px;
-    margin-bottom: 150px;
+    height: 1162px;
+    margin-bottom: 0px;
     padding-bottom: 0px;
   }
   .bg-heading-container {
-    height: 972px;
+    width: 379px;
+    height: 974px;
     margin-bottom: 0px;
   }
   .bg-text21 {
@@ -1138,7 +1142,7 @@
     margin-top: 0px;
   }
   .bg-services {
-    height: 8319px;
+    height: 8364px;
     margin-top: 0px;
     padding-top: 0px;
   }
